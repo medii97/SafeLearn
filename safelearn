@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SafeLearn for Kids</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .video-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .video {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  .video:hover {
+    transform: scale(1.05);
+  }
+  iframe {
+    width: 300px;
+    height: 169px; /* 16:9 Aspect Ratio */
+  }
+</style>
+</head>
+<body>
+
+<h1>Explore Learning Videos</h1>
+<p>Discover fun and educational videos selected just for kids!</p>
+
+<div class="video-container">
+  <!-- Example videos: Replace these IDs with your chosen content -->
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/mRidGna-V4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/rLprXHbn19I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/UXGtEAWxOqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <!-- Add more videos as needed -->
+</div>
+
+</body>
+</html>
